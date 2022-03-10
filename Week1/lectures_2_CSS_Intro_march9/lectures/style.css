@@ -47,3 +47,19 @@ background-color:aqua;
 h1{
     display: inline-block;
 }
+
+.header > img{
+    height: 100px;
+}
+
+input{
+    height: 100px;
+}
+
+input[type = "submit"]{
+    color: red;
+}
+
+input[type = "file"]{
+    background-color: blueviolet;
+}
