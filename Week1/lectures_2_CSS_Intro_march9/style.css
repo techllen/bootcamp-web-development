@@ -1,0 +1,49 @@
+/**{
+    color: red;
+}*/
+
+p{
+    color: blue;
+}
+
+h1{
+    color: red;
+}
+
+a{
+    color: purple;
+}
+
+img{
+    width: 500px;
+}
+
+.bg-black{
+    background-color: blueviolet;
+}
+
+#smallest-font{
+    color: brown;
+}
+
+.head .smaller a{
+    text-decoration: none;
+}
+
+div.head {
+background-color:aqua;
+}
+
+.smaller ,.formstyle{
+    box-shadow: 10px;
+}
+
+.pandaimage{
+    padding: 30px;
+    border: 30px;
+    border-color: blue;
+}
+
+h1{
+    display: inline-block;
+}
