@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+
+/* MyCloud Div */
+.mycloud{
+    background-color: black;
+    color: white;
+}
+
+.mycloud h1{
+    margin-left: 15px;
+}
+
+.mycloud span{
+    color: aqua;
+}
+
+/* Projects Div */
+.projects{
+    background-color: blueviolet;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.projects h3{
+    padding: 5px;
+}
+
+/* Contact */
+.contacts{
+background-color: lightskyblue;
+text-decoration: underline;
+text-align: right;
+}
+
+.contacts h3{
+    padding: 5px;
+}
