@@ -117,5 +117,32 @@ div.cl h1{
     
 }
 
+/* Display */
+.answer1{
+    width: 1500px;
+    display: flex;
+    align-items: flex-end;
+}
+.answer1 p{
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.answer2 p{
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+    vertical-align: top;
+}
+
+
+
 
 

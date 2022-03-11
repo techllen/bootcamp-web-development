@@ -1,0 +1,55 @@
+.body{
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Main C0ntainer */
+.container{
+    background-color: #fffcfc;
+    background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.png");
+}
+.heading{
+    text-align: center;
+}
+
+/* Rows */
+.row-1{
+    display: flex;
+    background-color: #56c3ea;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-2{
+    display: flex;
+    background-color: #cca0b2;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-3{
+    display: flex;
+    background-color: #fcfcfa;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    height: 200px;
+    margin: 20px;
+}
+
+.row-1,.row-2,.row-3{
+    margin: 20px;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+}
+
+a{
+    color: #a0ede1;
+}
