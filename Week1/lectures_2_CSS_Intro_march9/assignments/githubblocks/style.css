@@ -6,6 +6,7 @@
 
 /* Main C0ntainer */
 .container{
+    padding: 10px;
     background-color: #fffcfc;
     background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.png");
 }
@@ -36,7 +37,7 @@
 }
 
 img{
-    height: 200px;
+    height: 400px;
     margin: 20px;
 }
 
@@ -46,10 +47,11 @@ img{
 
 /* footer */
 
-.footer{
+.footer p{
     text-align: center;
+    font-size: 120%;
 }
 
 a{
-    color: #a0ede1;
+    color: blue;
 }

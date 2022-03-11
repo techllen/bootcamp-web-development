@@ -1,0 +1,26 @@
+body{
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Navigation bar */
+.nav{
+    display: flex;
+    background-color: darkslategray;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
