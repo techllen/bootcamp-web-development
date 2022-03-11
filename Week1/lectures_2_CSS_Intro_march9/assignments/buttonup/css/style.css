@@ -1,0 +1,44 @@
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+/* root */
+.root{
+    margin-left: 50px;
+}
+/* btn1 */
+
+.btn-1{
+    margin-top: 50px;
+}
+.buttonsearch{
+    padding: 3px 30px;
+    border: 2px solid  rgb(68, 216, 216);
+    color:  rgb(68, 216, 216);
+    border-radius: 1000px;
+}
+
+/* btn-2 */
+.btn-2{
+    margin-top: 15px;
+}
+
+.buttonplus{
+    border: 2px solid rgb(68, 216, 216);
+    background-color:  rgb(68, 216, 216);
+    color: white;
+    border-radius: 50%;
+}
+
+/* btn-3 */
+.btn-3{
+    margin-top: 10px;
+}
+.buttonaccount{
+    border: 2px solid black;
+    color: white;
+    background-color:cornflowerblue;
+    box-shadow: 3px 3px black;
+    padding: 4px 20px;
+}

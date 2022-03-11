@@ -2,6 +2,12 @@
     color: red;
 }*/
 
+body{
+    font-size: 100%;
+    background: #ffffff url("https://ichef.bbci.co.uk/news/976/cpsprodpb/17144/production/_121923549_kush-sarahteare-kermeen2.jpg") no-repeat fixed center;
+
+}
+
 p{
     color: blue;
 }
@@ -54,9 +60,8 @@ h1{
 
 .header img{
     margin: 100px;
-    border: 10px;
-    border-style: groove;
-    border-color: yellowgreen;
+    border: 10px groove yellowgreen;
+    border-radius: 10px;
 }
 
 input{
@@ -71,8 +76,9 @@ input[type = "file"]{
     background-color: blueviolet;
 }
 
-
+/* cl div */
 div.cl h1{
+    font-size: 2em;
     background-color: bisque;
     color:red;
     text-align: center;
@@ -81,3 +87,35 @@ div.cl h1{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* sz div */
+.sz{
+    background-color: burlywood;
+    color: blueviolet;
+}
+
+.sz h3{
+    font-size: 10pt;
+}
+
+.sz p{
+    font-size: 80%;
+    overflow: scroll;
+}
+
+.sz a{
+    font-size: 1.2em;
+}
+
+.sz span{
+    font-size: 14px;
+}
+
+.answer{
+    height: 50px;
+    background: #ffffff url("./images/download.jpg") no-repeat fixed center;
+    
+}
+
+
+
