@@ -152,7 +152,9 @@ div.cl h1{
     background-color: lightcyan;
 }
 
-
+align-content: space-between;
+justify-content: center;
+flex-flow: wrap column-reverse;
 
 
 

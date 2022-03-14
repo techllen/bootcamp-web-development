@@ -9,18 +9,33 @@ body{
     display: flex;
     background-color: darkslategray;
     align-items: center;
+    justify-content: space-between;
 }
 
+/* Nav title */
+.nav-title{
+    margin-left: 30px;
+}
+
+/* Nav Links */
 .nav-links{
     display: flex;
-    justify-content: flex-end;
+    margin-right: 15px;
 }
 
 .nav-links a{
     text-decoration: none;
+    color:white;
 }
 
-li{
+.nav-links li{
     list-style: none;
     padding: 10px;
+}
+
+.btn{
+    background-color: mediumturquoise;
+    box-shadow:2px 3px black;
+    color: white;
+    border-color: black;
 }
