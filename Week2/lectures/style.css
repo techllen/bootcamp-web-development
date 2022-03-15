@@ -112,9 +112,10 @@ div.cl h1{
 }
 
 .answer{
-    height: 50px;
-    background: #ffffff url("./images/download.jpg") no-repeat fixed center;
-    
+    height: 100px;
+    background: red url("./images/download.jpg") no-repeat fixed center;
+    position: relative;
+    top: 50px;
 }
 
 /* Display */
@@ -150,11 +151,29 @@ div.cl h1{
     padding: 20px;
     margin: 10px;
     background-color: lightcyan;
+    justify-content: space-evenly;
 }
 
-align-content: space-between;
-justify-content: center;
-flex-flow: wrap column-reverse;
+.col-2{
+    background-color: blue;
+    height: 100px;
+    margin: 10px;
+}
+
+.col-1{
+    background-color: blue;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.col-3{
+    background-color: blue;
+    height: 100px;
+}
+
+
 
 
 
