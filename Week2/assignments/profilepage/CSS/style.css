@@ -166,7 +166,6 @@ side-content-wrapper{
 /* connection requests  */
 .connection-requests-wrapper{
     background-color:ffffff;
-    border: 5px solid rgb(221, 210, 210);
     margin: 40px;
 }
 
@@ -192,26 +191,139 @@ side-content-wrapper{
 .connection-request-content{
     display: flex;
     flex-direction: column;
+    border: 3px solid rgb(221, 210, 210);
+    border-top: 0px;
 }
 
 .connection-request-content-member{
     display: flex;
 }
 
-.profile-picture-request{
-    height: 30px;
-    width: 30px;
-    border: black solid;
+.profile-picture-request-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    background-image: url("./images/todd-s.jpg");
-    background-size: 30px;
+    background-image: url("../images/todd-s.jpg");
+    background-size: 40px;
+}
+
+.profile-picture-request-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../images/phil-s.jpg");
+    background-size: 40px;
+}
+
+
+
+.accept{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../icons/accept-circle.png");
+    background-size: 40px;
+}
+
+.reject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../icons/close-circle.png");
+    background-size: 40px;
+}
+
+.decision{
+    display: flex;
 }
 
 /* connections */
 .connections-wrapper{
     background-color:ffffff;
-    border: 5px solid rgb(221, 210, 210);
     margin: 40px;
+}
+
+.connections-head{
+    display: flex;
+    align-items: center;
+    background-color:#333333 ;
+    color: #ffffff;
+}
+
+.connections-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#747474 ;
+    height: 20px;
+    width: 60px;
+    border-radius: 70%;
+}
+
+.connections-content{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(221, 210, 210);
+}
+
+.connections-content-member{
+    display: flex;
+}
+
+.profile-picture-connections-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../images/adrien-s.jpg");
+    background-size: 40px;
+}
+
+.profile-picture-connections-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../images/anne-s.jpg");
+    background-size: 40px;
+}
+
+.profile-picture-connections-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../images/alayne-s.jpg");
+    background-size: 40px;
+}
+
+.profile-picture-connections-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../images/arry-s.jpg");
+    background-size: 40px;
 }
 
 
