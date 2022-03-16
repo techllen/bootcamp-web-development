@@ -1,0 +1,219 @@
+/* Resets*/ 
+*{
+	vertical-align: baseline;
+	font-weight: inherit;
+    font-family: 'Maven Pro', sans-serif;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Container */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Bar */
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    font-size: 150%;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    margin: 40px;
+}
+
+.nav-links ul li{
+    margin: 10px;
+}
+
+.btn{
+    background-color: #51b8c9;
+    color:#ffffff;
+    height: 25px;
+    width: 80px;
+    margin-left: 300px;
+}
+/* content wrapper */
+.content-wrapper{
+    display: flex;
+}
+
+/* Main Content */
+.main-content-wrapper{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 40px;
+}
+
+/* Mamber Card*/
+/* .member-wrapper{
+    display:flex;
+    justify-content: center;
+} */
+.card{
+    background-color:ffffff;
+    border: 3px solid rgb(221, 210, 210);
+    /* margin: 50px 0px 0px -365px; */
+}
+
+/*Card Top Bar */
+.topbar{
+    height: 100px;
+    background-color:#17a2b8;
+}
+
+/*Card  Member */
+.member{
+}
+
+/* Card profile picture */
+.profile-picture{
+    height: 60px;
+    width: 60px;
+    border: 5px solid rgb(221, 210, 210);
+    border-radius: 50%;
+    background-image: url("./icons/user-circle.png") ;
+    background-size: 60px;
+}
+
+/*Card Name*/
+.name{
+    
+    font-size: 150%;
+}
+
+/* Card Location */
+.location{
+    
+    font-size: 150%;
+    height: 30px;
+}
+
+.location img{
+    height: 15px;
+    margin-top: 3px;
+}
+
+.location p{
+    font-size: 70%;
+}
+
+.location img,.location p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Card Profile description */
+.profile-description{
+   
+}
+
+/*Card  Edit-profile */
+.edit-profile{
+   
+}
+
+.edit-profile a img{
+    height: 12px;
+}
+
+/* Education */
+.education-wrapper{
+    background-color:ffffff;
+    margin-top: 40px;
+}
+
+.education-head{
+    color: #ffffff;
+    background-color:#333333 ;
+}
+
+.education-content{
+    border: 3px solid rgb(221, 210, 210);
+    border-top: 0px;
+}
+
+#date{
+    color: #000000 ;
+    opacity: 0.7;
+}
+/* side content wrapper */
+side-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+/* connection requests  */
+.connection-requests-wrapper{
+    background-color:ffffff;
+    border: 5px solid rgb(221, 210, 210);
+    margin: 40px;
+}
+
+.connection-request-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#333333 ;
+    color: #ffffff;
+}
+
+.connection-request-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#747474 ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 90%;
+}
+
+.connection-request-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.connection-request-content-member{
+    display: flex;
+}
+
+.profile-picture-request{
+    height: 30px;
+    width: 30px;
+    border: black solid;
+    border-radius: 50%;
+    background-image: url("./images/todd-s.jpg");
+    background-size: 30px;
+}
+
+/* connections */
+.connections-wrapper{
+    background-color:ffffff;
+    border: 5px solid rgb(221, 210, 210);
+    margin: 40px;
+}
+
+
+
+
