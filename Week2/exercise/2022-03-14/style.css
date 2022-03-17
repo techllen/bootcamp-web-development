@@ -1,0 +1,72 @@
+/* Resets */
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    background-color: black;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 90px 500px;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.lorem{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.redbox{
+    background-color: red;
+}
+
+.blackbox{
+    background-color: black;
+}
+.row-1,.row-2,.row-3{
+    display: flex;
+}
+
+/* Row 1 */
+.row-1 .lorem{
+    flex:1;
+}
+
+.row-1 .redbox{
+    flex: 1;
+}
+
+.row-1 .blackbox{
+    flex: 1;;
+}
+
+/* Row 2 */
+.row-2 .blackbox{
+    flex: 1;
+    height: 170px;
+}
+
+.row-2 .redbox{
+    flex: 3;
+}
+/* Row 3 */
+.row-3 .lorem{
+    flex:1;
+}
+
+.row-3 .redbox{
+    flex: 1;
+}
+
+.row-3 .blackbox{
+    flex: 1;;
+}

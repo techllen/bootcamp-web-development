@@ -2,8 +2,7 @@
 *{
 	vertical-align: baseline;
 	font-weight: inherit;
-    font-family: 'Maven Pro', sans-serif;
-	font-style: inherit;
+    font-family: 'Baloo 2', cursive;
 	font-size: 100%;
 	border: 0 none;
 	outline: 0;
@@ -38,7 +37,7 @@
 .nav-links ul{
     display: flex;
     list-style: none;
-    margin: 40px;
+    margin: 25px;
 }
 
 .nav-links ul li{
@@ -50,7 +49,7 @@
     color:#ffffff;
     height: 25px;
     width: 80px;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 /* content wrapper */
 .content-wrapper{
@@ -62,7 +61,7 @@
     display:flex;
     flex-direction: column;
     flex: 1;
-    margin:40px 150px 0px 20px;
+    margin:40px 0px 0px 45px;
 }
 
 .card{
@@ -78,7 +77,7 @@
 }
 
 .member{
-    padding: 20px 100px 20px 20px;
+    padding: 20px 90px 20px 20px;
     margin-top: -30px;
     border: 3px solid rgb(221, 210, 210);
     border-top: 0px;
@@ -155,6 +154,8 @@ side-content-wrapper{
     flex-direction: column;
     flex: 1;
 }
+
+/* Connections requests */
 .connection-requests-wrapper{
     background-color:ffffff;
     margin: 40px;
