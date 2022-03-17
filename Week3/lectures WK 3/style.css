@@ -1,0 +1,186 @@
+/**{
+    color: red;
+}*/
+
+body{
+    font-size: 100%;
+    background: #ffffff url("https://ichef.bbci.co.uk/news/976/cpsprodpb/17144/production/_121923549_kush-sarahteare-kermeen2.jpg") no-repeat fixed center;
+
+}
+
+p{
+    color: blue;
+}
+
+h1{
+    color: red;
+}
+
+a{
+    color: purple;
+}
+
+img{
+    width: 500px;
+}
+
+.bg-black{
+    background-color: blueviolet;
+}
+
+#smallest-font{
+    color: brown;
+}
+
+.head .smaller a{
+    text-decoration: none;
+}
+
+div.head {
+background-color:aqua;
+}
+
+.smaller ,.formstyle{
+    box-shadow: 10px;
+}
+
+.pandaimage{
+    padding: 30px;
+    border: 30px;
+    border-color: blue;
+}
+
+h1{
+    display: inline-block;
+}
+
+/*.header > img{
+    height: 100px;
+}*/
+
+.header img{
+    margin: 100px;
+    border: 10px groove yellowgreen;
+    border-radius: 10px;
+}
+
+input{
+    height: 100px;
+}
+
+input[type = "submit"]{
+    color: red;
+}
+
+input[type = "file"]{
+    background-color: blueviolet;
+}
+
+/* cl div */
+div.cl h1{
+    font-size: 2em;
+    background-color: bisque;
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* sz div */
+.sz{
+    background-color: burlywood;
+    color: blueviolet;
+}
+
+.sz h3{
+    font-size: 10pt;
+}
+
+.sz p{
+    font-size: 80%;
+    overflow: scroll;
+}
+
+.sz a{
+    font-size: 1.2em;
+}
+
+.sz span{
+    font-size: 14px;
+}
+
+.answer{
+    height: 100px;
+    background: red url("./images/download.jpg") no-repeat fixed center;
+    position: relative;
+    top: 50px;
+}
+
+/* Display */
+.answer1{
+    width: 1500px;
+    display: flex;
+    align-items: flex-end;
+}
+.answer1 p{
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.answer2 p{
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightcyan;
+    justify-content: space-evenly;
+}
+
+.col-2{
+    background-color: blue;
+    height: 100px;
+    margin: 10px;
+}
+
+.col-1{
+    background-color: blue;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.col-3{
+    background-color: blue;
+    height: 100px;
+}
+
+.text-column{
+    position: relative;
+    top: 1000px;
+    background-color: aqua;
+}
+
+
+
+
+
+
