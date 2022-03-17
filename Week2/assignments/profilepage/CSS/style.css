@@ -62,51 +62,47 @@
     display:flex;
     flex-direction: column;
     flex: 1;
-    margin: 40px;
+    margin:40px 150px 0px 20px;
 }
 
-/* Mamber Card*/
-/* .member-wrapper{
-    display:flex;
-    justify-content: center;
-} */
 .card{
+    display:flex;
+    flex-direction: column;
     background-color:ffffff;
-    border: 3px solid rgb(221, 210, 210);
-    /* margin: 50px 0px 0px -365px; */
+
 }
 
-/*Card Top Bar */
 .topbar{
     height: 100px;
     background-color:#17a2b8;
 }
 
-/*Card  Member */
 .member{
+    padding: 20px 100px 20px 20px;
+    margin-top: -30px;
+    border: 3px solid rgb(221, 210, 210);
+    border-top: 0px;
+
 }
 
-/* Card profile picture */
-.profile-picture{
+.profile-picture-member{
     height: 60px;
     width: 60px;
-    border: 5px solid rgb(221, 210, 210);
+    border: 3px solid rgb(221, 210, 210);
     border-radius: 50%;
-    background-image: url("./icons/user-circle.png") ;
+    background-image: url("../images/jane-m.jpg") ;
     background-size: 60px;
+    margin: -30px 0px 0px 20px;
 }
 
-/*Card Name*/
-.name{
-    
+.description h1{
     font-size: 150%;
+    padding-top: 10px;
 }
 
-/* Card Location */
 .location{
-    
+    padding: 5px 0px 0px 2px;
     font-size: 150%;
-    height: 30px;
 }
 
 .location img{
@@ -122,15 +118,8 @@
     display: inline-block;
     vertical-align: top;
 }
-
-/* Card Profile description */
-.profile-description{
-   
-}
-
-/*Card  Edit-profile */
 .edit-profile{
-   
+    padding: 10px 0px 0px 0px;
 }
 
 .edit-profile a img{
@@ -146,16 +135,19 @@
 .education-head{
     color: #ffffff;
     background-color:#333333 ;
+    padding: 10px 20px;
 }
 
 .education-content{
     border: 3px solid rgb(221, 210, 210);
     border-top: 0px;
+    padding: 20px 16px;
 }
 
 #date{
     color: #000000 ;
     opacity: 0.7;
+    padding: 5px 0px 8px;
 }
 /* side content wrapper */
 side-content-wrapper{
@@ -163,7 +155,6 @@ side-content-wrapper{
     flex-direction: column;
     flex: 1;
 }
-/* connection requests  */
 .connection-requests-wrapper{
     background-color:ffffff;
     margin: 40px;
@@ -171,21 +162,23 @@ side-content-wrapper{
 
 .connection-request-head{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color:#333333 ;
     color: #ffffff;
+    padding: 10px 20px;
 }
 
 .connection-request-count{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#747474 ;
+    background-color:#b6b6b6 ;
+    color: #000000;
     height: 20px;
     width: 20px;
     border-radius: 50%;
     font-size: 90%;
+    margin:0px 19px 0px -8px;
 }
 
 .connection-request-content{
@@ -193,60 +186,75 @@ side-content-wrapper{
     flex-direction: column;
     border: 3px solid rgb(221, 210, 210);
     border-top: 0px;
+    padding: 10px 20px;
 }
 
 .connection-request-content-member{
     display: flex;
+    margin:0px -20px 15px -8px;
+
+}
+
+.connection-request-content-member p{
+    margin: 4px 20px 5px 8px ;
 }
 
 .profile-picture-request-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-image: url("../images/todd-s.jpg");
-    background-size: 40px;
+    background-size: 30px;
 }
 
 .profile-picture-request-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-image: url("../images/phil-s.jpg");
-    background-size: 40px;
+    background-size: 30px;
 }
-
 
 
 .accept{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-image: url("../icons/accept-circle.png");
-    background-size: 40px;
+    background-size: 25px;
 }
 
 .reject{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-image: url("../icons/close-circle.png");
-    background-size: 40px;
+    background-size: 25px;
+    margin-left: 10px;
 }
 
-.decision{
+.decision-1{
     display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.decision-2{
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
 }
 
 /* connections */
@@ -260,70 +268,86 @@ side-content-wrapper{
     align-items: center;
     background-color:#333333 ;
     color: #ffffff;
+    padding: 10px 10px 10px 20px ;
 }
 
 .connections-count{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#747474 ;
+    background-color:#b6b6b6 ;
+    color: #000000;
     height: 20px;
     width: 60px;
-    border-radius: 70%;
+    border-radius: 50%;
+    margin:0px 5px 0px -8px;
 }
 
 .connections-content{
     display: flex;
     flex-direction: column;
     border: 3px solid rgb(221, 210, 210);
+    border-top: 0px;
+    padding: 10px 20px;
 }
 
 .connections-content-member{
     display: flex;
+    margin:0px 5px 15px -8px;
+}
+
+.connections-content-member p{
+    margin: 4px 20px 5px 8px ;
 }
 
 .profile-picture-connections-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-image: url("../images/adrien-s.jpg");
-    background-size: 40px;
+    background-size: 30px;
 }
 
 .profile-picture-connections-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-image: url("../images/anne-s.jpg");
-    background-size: 40px;
+    background-size: 30px;
 }
 
 .profile-picture-connections-3{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-image: url("../images/alayne-s.jpg");
-    background-size: 40px;
+    background-size: 30px;
 }
 
 .profile-picture-connections-4{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-image: url("../images/arry-s.jpg");
-    background-size: 40px;
+    background-size: 30px;
+}
+
+.more{
+    border: 3px solid rgb(221, 210, 210);
+    border-top: 0px;
+    padding: 10px 20px;
 }
 
 
