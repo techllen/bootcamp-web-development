@@ -2,7 +2,7 @@ var count = 1;
 
 var countElement = document.querySelector("#count");
 
-var selectors
+var selectors = document.querySelector(".btn")
 
 console.log(countElement);
 
@@ -17,3 +17,5 @@ function subtract1(){
     countElement.innerText="The count is " + count ;
     console.log(count);
 }
+
+console.log(selectors);
