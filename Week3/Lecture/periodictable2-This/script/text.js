@@ -58,3 +58,12 @@ function turnOff(element){
     element.innerText = "Off";
     //element.remove();
 }
+
+
+function addShadow(note){
+    console.log(note.classList.add("shadow"));
+}
+
+function removeShadow(note){
+    console.log(note.classList.remove("shadow"));
+}

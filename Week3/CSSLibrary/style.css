@@ -17,10 +17,13 @@
 
 /* Button Style */
   .btn{
-    padding: 3px 30px;
-    border: 2px solid  rgb(68, 216, 216);
     color:  rgb(68, 216, 216);
     border-radius: 1000px;
+    background-color: #ffd966;
+    font-size: 90%;
+    border: 2px solid  #000000;
+    box-shadow:2px 3px #000000;
+    padding: 2px 5px;
   }
 
 /* Flexible Columns */

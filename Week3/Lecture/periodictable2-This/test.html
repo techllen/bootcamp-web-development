@@ -22,10 +22,29 @@
         <h3>Li</h3>
         <p>6.003</p>
     </div>
+    
 
     <div >
         <button class="btn" onclick="turnOff(this)">On</button>
         <button class="btn" onclick="turnOff(this)">On</button>
+    </div>
+
+    <div>
+        <h1>Dojo Notes</h1>
+        <div class="row">
+            <div class="note" onmouseover="addShadow(this)" onmouseout=removeShadow(this)">
+                note 1
+            </div>
+            <div class="note" onmouseover="addShadow(this)" onmouseleave=removeShadow(this)">
+                note 2
+            </div>
+            <div class="note" onmouseover="addShadow(this)" onmouseleave=removeShadow(this)">
+                note 3
+            </div>
+            <div class="note" onmouseover="addShadow(this)" onmouseleave=removeShadow(this)">
+                note 4
+            </div>
+        </div>
     </div>
     <script src="./script/text.js"></script>
 </body>
