@@ -53,5 +53,8 @@ function displayName(elementName){
 }
 
 function turnOff(element){
-    console.log(element);
+    //console.log(element);
+    //console.log(window);
+    element.innerText = "Off";
+    //element.remove();
 }
