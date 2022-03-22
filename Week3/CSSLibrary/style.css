@@ -26,6 +26,14 @@
     padding: 2px 5px;
   }
 
+  /* center flexing */
+.flex-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
 /* Flexible Columns */
 .row{
     display: flex;

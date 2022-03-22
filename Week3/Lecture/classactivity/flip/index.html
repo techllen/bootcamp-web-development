@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Black Mage</h1>
+            <div class="right">
+                <div class="top">
+                    <p>Strengths</p>
+                    <p>Weaknesses</p>
+                    <p>Abilities</p>
+                </div>
+                <div class="bottom">
+                    <p>Black mages are good for ranged combat and exploiting elemental weaknesses</p>
+                    <p>Black mages are highly susceptible to physical damage and cannot deal a lot of non-elemental damage without the proper spell.</p>
+                    <p id="spells">
+                        Fire,
+                        Blizzard,
+                        Thunder,
+                        Demi,
+                        Bio,
+                        Ultima
+                    </p>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <img class="normal" onmouseover="flipMage(this)" onmouseout="flipMageBack(this)" id="bmage" src="bmage.png" alt="black mage">
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
