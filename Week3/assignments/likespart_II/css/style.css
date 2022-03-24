@@ -1,0 +1,110 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Baloo 2', cursive;
+  }
+
+  /* Container */
+.container {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
+/* Navigation */
+nav{
+  background-color: #000000;
+  color: #ffffff;
+  height: 40px;
+  width: inherit;
+  padding: 15px;
+  display: flex;
+  align-items: center;font-size: 170%;
+}
+
+/* main */
+main{
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+
+/* profile */
+#profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  border: 3px solid #000000;
+  border-radius: 3px;
+  padding: 20px 10px;
+  margin-top: 52px;
+  height: 200px;
+}
+
+#profile .profile-picture{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-image: url("../icons/user-circle.png");
+  background-size: 60px;
+}
+
+#profile a{
+  margin: 15px 0px;
+}
+
+#profile p{
+  font-size: 130%;
+}
+
+/* feed  */
+#feed{
+  display: flex;
+  flex-direction: column;
+}
+
+#feed h1{
+  font-size: 160%;
+  padding-left: 30px;
+}
+
+#feed .feed-post{
+  border: 3px solid #000000;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+#feed .feed-post{
+  margin: 10px 0px 0px 0px;
+}
+
+#feed .feed-user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 15px 0px;
+}
+
+.feed-user-name{
+  font-size: 130%;
+}
+
+/* Button Style */
+  .btn-1,.btn-2,.btn-3{
+    color: #000000;
+    background-color: #ffd966;
+    font-size: 90%;
+    border: 2px solid  #000000;
+    box-shadow:2px 3px #000000;
+    padding: 2px 5px;
+  }
+

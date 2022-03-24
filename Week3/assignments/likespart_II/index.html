@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Likes</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <p>Network</p>
+      </nav>
+      <main>
+        <div id="profile">
+          <div class="profile-picture"></div>
+          <a href="">add an avatar</a>
+          <p>James Doe</p>
+        </div>
+        <div id="feed">
+          <h1>Your Feed</h1>
+          <div class="feed-post">
+            <div class="feed-user">
+              <p class="feed-user-name">Neil M</p>
+              <p><span class="count-1">0</span> like(s)</p>
+              <button class="btn-1" onclick="addLikes(this)">Like</button>
+            </div>
+            <p class="feed-post-message">
+              I just set up this new discord bot,let me know what you all think
+              <a href="#">link</a>
+            </p>
+          </div>
+          <div class="feed-post">
+            <div class="feed-user">
+              <p class="feed-user-name">Nichole K</p>
+              <p><span class="count-2">0</span> like(s)</p>
+              <button class="btn-2" onclick="addLikes(this)">Like</button>
+            </div>
+            <p class="feed-post-message">
+              Just finished my <a href="#"> next comic</a>, check it out
+            </p>
+          </div>
+          <div class="feed-post">
+            <div class="feed-user">
+              <p class="feed-user-name">Jim R</p>
+              <p><span class="count-3">0</span> like(s)</p>
+              <button class="btn-3" onclick="addLikes(this)">Like</button>
+            </div>
+            <p class="feed-post-message">
+              I can't stop listening to the <a href="#">new album</a>.Who else
+              is liking it?
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
