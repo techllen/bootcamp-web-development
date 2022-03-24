@@ -68,3 +68,24 @@
     background-size: 60px;
     margin: -30px 0px 0px 20px;
 }
+
+/* Navigation Bar */
+/* Navigation bar in the middle and stretch background color */
+/* navigation bar background */
+.nav-background{
+  background-color: #9fc5f8;
+  height: 60px;
+  position:absolute;
+  z-index: -1;
+  left:0;
+  right:0;
+}
+
+/* Navigation bar */
+nav{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

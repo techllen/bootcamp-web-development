@@ -67,3 +67,26 @@ function addShadow(note){
 function removeShadow(note){
     console.log(note.classList.remove("shadow"));
 }
+
+
+// settimeout
+// function laterRoutine(){
+//     for (let i = 0; i < 10; i++) {
+//         console.log("run: " + i);    
+//     }
+// }
+
+// setTimeout(laterRoutine,2000);
+// console.log("END");
+
+
+function setName(element){
+    
+    document.querySelector("#name").innerHTML = element.value;
+}
+
+setName();
+
+function pickFood(element){
+    console.log("the food:" + element.value);
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <h1 class="home"><strong>Profile</strong></h1>
+        <div class="nav-links">
+          <ul>
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Find Connections</li>
+          </ul>
+        </div>
+        <button class="btn">Sign Out</button>
+      </div>
+      <div class="content-wrapper">
+        <div class="main-content-wrapper">
+          <div class="card">
+            <div class="topbar"></div>
+            <div class="profile-picture-member"></div>
+            <div class="member">
+              <div class="description">
+                <h1>Jane Doe</h1>
+                <div class="location">
+                  <img src="./icons/map-marker.png" alt="map-marker" />
+                  <p>Seattle</p>
+                </div>
+                <div class="profile-description">
+                  <p>Developer | Engineer | Problem Solver</p>
+                  <p>Master of shadows and the internet!</p>
+                </div>
+                <div class="edit-profile">
+                  <a href="#"
+                    onclick="changeName()"><img src="./icons/gear.png" alt="setting-gear" /> edit
+                    profile</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-wrapper">
+            <div class="education-head">
+              <h1>Education</h1>
+            </div>
+            <div class="education-content">
+              <p>Coding Dojo - Full Stack Bootcamp</p>
+              <p id="date">Dec 2019 - Mar 2020</p>
+              <p>Triple block belt in Python,MERN, and C#...</p>
+            </div>
+          </div>
+        </div>
+        <div class="side-content-wrapper">
+          <div class="connection-requests-wrapper">
+            <div class="connection-request-head">
+              <div class="connection-request-count">
+                <span>2</span>
+              </div>
+              <h1>Connection Requests</h1>
+            </div>
+            <div class="connection-request-content">
+              <div class="connection-request-content-member">
+                <div class="profile-picture-request-1"></div>
+                <p>Todd E</p>
+                <div class="decision-1">
+                 <!-- Calling multiple functions during on click event -->
+                  <div class="accept-1" onclick="removeConnectionRequest(); addConnectionCount();"></div>
+                  <div class="reject-1" onclick="removeConnectionRequest(); decreaseConnectionRequests();"></div>
+                </div>
+              </div>
+              <div class="connection-request-content-member">
+                <div class="profile-picture-request-2"></div>
+                <p>Phil K</p>
+                <div class="decision-2">
+                  <!-- Calling multiple functions during on click event -->
+                  <div class="accept-2" onclick="removeConnectionRequest(); addConnectionCount();"></div>
+                  <div class="reject-2" onclick="removeConnectionRequest(); decreaseConnectionRequests();"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="connections-wrapper">
+            <div class="connections-head">
+              <div class="connections-count"><span>418</span></div>
+              <h1>Your Connections</h1>
+            </div>
+            <div class="connections-content">
+              <div class="connections-content-member">
+                <div class="profile-picture-connections-1"></div>
+                <p>Adrien D</p>
+              </div>
+
+              <div class="connections-content-member">
+                <div class="profile-picture-connections-2"></div>
+                <p>Anne J</p>
+              </div>
+
+              <div class="connections-content-member">
+                <div class="profile-picture-connections-3"></div>
+                <p>Alayne T</p>
+              </div>
+
+              <div class="connections-content-member">
+                <div class="profile-picture-connections-4"></div>
+                <p>Arry Y</p>
+              </div>
+            </div>
+            <div class="more">
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

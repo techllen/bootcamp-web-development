@@ -46,6 +46,20 @@
             </div>
         </div>
     </div>
+
+    <div>
+        <h1>OnInput Example</h1>
+        <p>Hello,my name is <span id="name"></span></p>
+        <input type="text" name="name" placeholder="Enter your name" oninput="setName(this)">
+        
+        <h1>onselct example</h1>
+        <select name="food" onchange="pickFood(this)">
+            <option>pizza</option>
+            <option>ugali</option>
+            <option>andazi</option>
+            <option>sushi</option>
+        </select>
+    </div>
     <script src="./script/text.js"></script>
 </body>
 </html>
