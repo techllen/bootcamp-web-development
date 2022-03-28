@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" context="Coding Dojo Weather App" />
+    <meta name="description" content="Coding Dojo Weather App" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,8 +33,8 @@
           <div class="temperature">
             <form>
               <label for="temp">show temperature in</label>
-              <select name="temp" id="temp">
-                <option value="centigrade">&#8451;</option>
+              <select name="temp" id="temp" onchange="celsiusToFahrenheit()">
+                <option value="celsius">&#8451;</option>
                 <option value="fahrenheit">&#8457;</option>
               </select>
             </form>
@@ -46,8 +46,8 @@
             <div class="weather-icon-1"></div>
             <p class="weather-description">some rain</p>
             <div class="high-low">
-              <p id="high">24&deg</p>
-              <p id="low">18&deg</p>
+              <p class="high">24&deg;</p>
+              <p class="low">18&deg;</p>
             </div>
           </div>
 
@@ -56,8 +56,8 @@
             <div class="weather-icon-2"></div>
             <p class="weather-description">some sun</p>
             <div class="high-low">
-              <p id="high">27&deg</p>
-              <p id="low">19&deg</p>
+              <p class="high">27&deg;</p>
+              <p class="low">19&deg;</p>
             </div>
           </div>
 
@@ -66,8 +66,8 @@
             <div class="weather-icon-3"></div>
             <p class="weather-description">some clouds</p>
             <div class="high-low">
-              <p id="high">21&deg</p>
-              <p id="low">16&deg</p>
+              <p class="high">21&deg;</p>
+              <p class="low">16&deg;</p>
             </div>
           </div>
 
@@ -76,8 +76,8 @@
             <div class="weather-icon-4"></div>
             <p class="weather-description">some sun</p>
             <div class="high-low">
-              <p id="high">26&deg</p>
-              <p id="low">21&deg</p>
+              <p class="high">26&deg;</p>
+              <p class="low">21&deg;</p>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@
               <a href="#">Read more</a>
             </p>
           </div>
-          <button class="btn">I Accept</button>
+          <button class="btn" onclick="removeCookiePolicy()">I Accept</button>
         </div>
       </footer>
     </div>

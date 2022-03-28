@@ -58,6 +58,7 @@ nav h1{
 
   .nav-links li{
        padding-left: 20px;
+       cursor: pointer;
   }
 
   /* main*/
@@ -148,11 +149,11 @@ main{
     margin: 10px 0px;
 }
 
-#high{
+.high{
     color:#FF0000 ;
 }
 
-#low{
+.low{
     color:#0000FF;
 }
 

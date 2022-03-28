@@ -1,0 +1,3 @@
+//this is a terminal test
+/*this is a terminal test*/
+<!--This is a terminal test-->
