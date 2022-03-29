@@ -28,4 +28,3 @@ function randomPizza(pizzaCollection){
 }
 
 randomPizza(pizzaCollection);
-
